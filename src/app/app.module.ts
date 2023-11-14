@@ -8,8 +8,11 @@ import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
 import { HoriScrollComponent } from './hori-scroll/hori-scroll.component';
 import { CardsComponent } from './cards/cards.component';
-import { GoogleMapsModule } from '@angular/google-maps';
-
+import {HttpClientModule} from '@angular/common/http';
+import { AdverComponent } from './adver/adver.component';
+import { ReviewComponent } from './review/review.component';
+import { MenuComponent } from './menu/menu.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,12 +20,16 @@ import { GoogleMapsModule } from '@angular/google-maps';
     FooterComponent,
     OrderComponent,
     HoriScrollComponent,
-    CardsComponent
+    CardsComponent,
+    AdverComponent,
+    ReviewComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GoogleMapsModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

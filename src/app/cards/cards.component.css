@@ -1,0 +1,168 @@
+.cards{
+    background-color: bisque;
+
+    
+}
+.card{
+    margin-left: 8rem;
+    
+}
+.card-main{
+    display: flex;
+    flex-direction:row;
+    padding: 13.9px;
+    border: 1px solid rgb(233, 185, 185);
+    box-shadow: 0.5px 0.5px 0px;
+    border-radius: 3%;
+}
+
+.card-main2{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    border: 1px solid rgb(233, 185, 185);
+    box-shadow: 0.5px 0.5px 0px;
+    border-radius: 3%;
+    background-color: red;
+}
+
+.card-main3{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border: 1px solid rgb(233, 185, 185);
+    box-shadow: 0.5px 0.5px 0px;
+    border-radius: 3%;
+    width: 20rem;
+}
+
+.card-content h3{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 3px;
+    font-weight:bolder;
+    margin-bottom: 15px;
+}
+
+.card-content h4{
+    color: red;
+    font-size:medium;
+    font-weight: 600;
+}
+
+
+
+.card-content p{
+ font-weight: lighter;
+ opacity: 1;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-size:x-small;
+ color: grey;
+}
+
+.card-content2 h3{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    font-weight:bolder;
+    
+}
+
+.card-content2 h4{
+    color: red;
+    font-size:medium;
+    font-weight: 600;
+    margin: 10px;
+}
+
+
+
+.card-content2 p{
+ font-weight: lighter;
+ opacity: 1;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-size:x-small;
+ color: grey;
+ margin: 10px;
+}
+
+.burgerImg{
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: 22px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+.card-main2 img{
+    padding: 32px;
+    margin-right:15px;
+    margin-top: 22px;
+    border-radius: 50%;
+    /* background-color: rgb(245, 193, 5); */
+    width: 160px;
+    height: 160px;
+}
+
+.map{
+    padding: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(53, 49, 49, 0.282);
+    display: flex;
+    margin: 35px 0 0 10px;
+    background-color: rgba(228, 197, 197, 0.282);
+}
+
+.card-content3 h3{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 35px;
+    font-weight:bolder; 
+   
+}
+
+.card-content3{
+    height: 204px;
+}
+
+.chick{
+    padding: 0px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgba(207, 173, 173, 0.282);
+    display: flex;
+    margin: 45px 0 0 10px;
+    /* background-color: rgba(228, 197, 197, 0.282); */
+}
+
+.hope{
+    padding: 3px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgb(151, 227, 227);
+    display: flex;
+    margin: 45px 0 0 10px;
+    background-color: rgb(37, 147, 147);
+
+}
+
+.butto{
+    border-radius: 20rem;
+    color: white;
+    border: none;
+    padding: 8px;
+    box-shadow: 1px 1px 1px 2px rgb(244, 209, 209);
+    margin: 7rem;
+}
+
+.butto:hover{
+    transform: scale(1.1);
+}

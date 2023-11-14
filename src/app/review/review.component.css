@@ -1,0 +1,43 @@
+.video{
+    position: relative;
+    padding:0rem;
+    left: 9rem;
+    bottom: 3rem;
+    opacity: 0.7;
+}
+
+.container{
+    height:6rem;
+}
+
+.card-line2{
+    
+    margin-left: 12rem;
+}
+
+.fa-facebook-f{
+    border-radius: 50%;
+    height: 2rem;
+    width:2rem;
+    padding: 0.6em;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.fa-twitter{
+    border-radius: 50%;
+    height: 2rem;
+    width:2rem;
+    padding: 0.5em;
+    position: absolute;
+    top:0;
+    left:0;
+    
+}
+
+.card{
+    box-shadow: 0px 0px 0.5px 0.5px rgb(213, 213, 236);
+    width: 18rem;
+    height: 6rem;
+}
